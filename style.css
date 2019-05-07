@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #24272E;
+}
+
+header
+{
+    background: white; 
+    padding: 20px;
+
+}
+
+header > h1
+{
+    color: #24272E;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+
+.score-board
+{
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px 20px;
+    width: 200px;
+    color:white;
+    font-size: 46px;
+    font-family: Asap, sans-serif;
+    position: relative;
+}
+
+.badge
+{
+    background: #E2584D;
+    color: white;
+    font-size: 8 px;
+    padding: 2px 10px;
+    font-family: Asap, sans-serif;
+}
+
+#user-label
+{
+    position: absolute;
+    font-size: 20px;
+    top: 30px;
+    left: -30px;
+}
+
+#computer-label
+{
+    position: absolute;
+    font-size: 20px;
+    top: 30px;
+    right: -40px;
+}
+
+.result
+{
+    font-size: 40px;
+    color: white;
+}
+
+.result > p
+{
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.choices
+{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.choice
+{
+    display: inline-block;
+    border: 4px solid white;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.choice:hover
+{
+    cursor: pointer;
+    background: black;
+}
+
+#action-message
+{
+    color: white;
+    text-align: center;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#new-game
+{
+    margin: auto;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 25px;
+    border: 4px solid black;
+    border-radius: 4px;
+    width: 200px;
+    transition: all 0.3s ease;
+}
+
+#new-game:hover
+{
+    cursor: pointer;
+    background: #d686c2
+}
+
+.green-glow
+{
+    border: 4px solid green;
+    box-shadow: 0 0 30px lightgreen
+}
+
+.red-glow
+{
+    border: 4px solid red;
+    box-shadow: 0 0 30px #d01110
+}
+
+.grey-glow
+{
+    border: 4px solid #464647;
+    box-shadow: 0 0 30px white;
+}
